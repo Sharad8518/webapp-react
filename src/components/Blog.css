@@ -1,0 +1,49 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+.boxub{
+
+width: 500px;
+height: 300px;
+margin-top: 500px;
+margin-left: 400px;
+
+
+
+}
+.boxub  .textub{
+margin-left: 150px;
+display: flex;
+
+}
+.boxub  .textub h4{
+
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+
+}
+
+.txtubcolor{
+
+    color:#7b9c6c;
+}
+
+.boxub   .logoub{
+ margin-left: 220px;
+ margin-top: 10px;
+
+
+}
+
+.boxub p{
+
+
+    margin-top: 20px;
+    text-align: center;
+
+
+}

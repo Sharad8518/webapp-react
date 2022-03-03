@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.aboutbox{
+
+    width: 500px;
+    height: 300px;
+   
+    margin-top: 100px;
+    position: absolute;
+    transform: translateX(80%);
+
+
+}
+
+.aboutbox  .abtext {
+  text-align: center;
+    display: flex;
+
+    margin-left: 100px;
+
+}
+.aboutbox  .abtext h3{
+    font-family: 'Rubik', sans-serif;
+font-size: 40px;
+
+}
+
+.txtcolor{
+
+color:#7b9c6c;
+
+}
+
+.aboutbox .icon{
+    width: 30px;
+margin-top: 10px;
+margin-left: 210px;
+
+
+}
+.aboutbox p{
+
+text-align: center;
+font-weight: 500;
+margin-top: 20px;
+}
+
+

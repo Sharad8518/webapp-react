@@ -1,0 +1,150 @@
+*{
+
+padding: 0;
+margin: 0;
+
+}
+.boxfea{
+
+width: 500px;
+height: 260px;
+
+margin: 20px auto;
+}
+
+.boxfea .txtfea h5{
+
+font-size: 35px;
+font-weight: 700;
+margin-right: 20px;
+}
+
+
+.boxfea  .txtfea{
+ margin: 10px auto;
+display: flex;
+margin-left: 60px;
+
+
+}
+
+.boxfea  .txtfea .txtcolfea{
+
+    color: #7b9c6c;
+
+}
+.logofea{
+
+    margin-left: 220px;
+
+}
+
+
+
+
+.boxfea p{
+
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+.boxfeature {
+    display: flex;
+    
+    
+    }
+
+    .boxfeature #conboxfea {
+
+    width: 100px;
+    height: 100px;
+    background: #7b9c6c;
+
+
+}
+.conboxfea .iconfear{
+
+    width: 50px;
+    height: 50px;
+
+
+}
+
+@media screen and (max-width: 412px) {
+
+
+
+    .boxfea{
+
+        width: 300px;
+        height: 250px;
+        
+        margin: 20px auto;
+        }
+
+        .boxfea .txtfea h5{
+
+            font-size: 20px;
+            font-weight: 700;
+            margin-right: 10px;
+            }
+
+            .logofea{
+
+                margin-left: 130px;
+            
+            }
+            
+
+            .boxfea  .txtfea{
+                margin: 10px auto;
+               display: flex;
+               margin-left: 40px;
+               
+               
+               }
+               .boxfea .ptext{
+                
+                width: 200px;
+                margin-top: 20px;
+                text-align: center;
+                margin-left: 40px;
+                font-size: 10px;
+            
+            
+            }
+
+            .imgdevmb{
+
+      margin-left: 150px;
+      margin-top: -300px;
+
+            }
+
+
+ .imgmob{
+
+  width: 250px;
+  margin-left: 300px;
+
+ }
+ .boxfeature  h6{
+
+margin-left: 0;
+font-size: 20px;
+ }
+
+
+#iconboxfea{
+
+width: 60px;
+height: 60px;
+
+}
+.detailfea h6{
+
+    font-size: 15px;
+}
+
+}

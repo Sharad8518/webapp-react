@@ -1,0 +1,135 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.rowab{
+
+display: inline-flex;
+margin-left:120px;
+margin-top: 350px;
+position: absolute;
+}
+
+.rowab .colab{
+
+    width:500px;
+    height: 500px;
+    
+
+
+}
+.rowab .colac{
+
+    width:600px;
+    height: 500px;
+    
+
+
+}
+
+.rowab .colac .textab{
+
+display: flex;
+margin-top: 100px;
+}
+
+.rowab .colac .textab h4{
+
+font-size: 30px;
+margin-right: 10px;
+font-weight: 800;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.txtcolorab{
+
+    color:#7b9c6c ;
+
+
+}
+
+.rowab .colac  p{
+
+font-size: 16px;
+font-weight: 500;
+
+}
+
+.rowab .colac  .btnab{
+
+display: flex;
+margin-top: 50px;
+}
+
+.rowab .colac  .btnab button{
+
+
+    width: 120px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+   font-weight: 700;
+
+}
+.active{
+background:#7b9c6c ;
+color: #fff;
+
+}
+
+.rowab .colac  .btnab button:hover{
+
+    background:#7b9c6c ;
+    color: #fff;
+
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+
+
+    .rowab{
+
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 100px;
+        position: absolute;
+        }
+        
+        .rowab .colac{
+
+            width:400px;
+            height: 500px;
+            
+        
+        
+        }
+    }
+        @media only screen and (max-width: 500px){
+
+
+            .rowab{
+        
+                display: inline-block;
+                margin-left: 100px;
+                margin-top: 100px;
+                position: absolute;
+                }
+                
+                .rowab .colac{
+        
+                    width:400px;
+                    height: 500px;
+                    
+                
+                
+                }
+
+}

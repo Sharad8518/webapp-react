@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.Nabvar{
+
+    width: 100%;
+    height: 120px;
+display: flex;
+background:#2c3e50 ;
+padding: 20px;
+
+}
+
+.Nabvar .logo{
+
+    width: 200px;
+    height: 65px;
+    margin-top: 7px;
+    margin-left: 40px;
+   
+
+}
+.Nabvar ul{
+
+margin-top: 32px;
+margin-left: 170px;
+display: flex;
+}
+
+.Nabvar ul li{
+
+list-style: none;
+margin-left: 40px;
+
+color: #fff;
+font-weight: 600;
+font-size: 13px;
+font-family: 'Signika', sans-serif;
+cursor: pointer;
+}
+
+.Nabvar ul  button{
+width: 120px;
+padding: 7px;
+font-family: 'Signika', sans-serif;
+background:#7b9c6c ;
+font-weight: 600;
+border: none;
+margin-left: 35px;
+color:#fff;
+
+}
+
+.Nabvar ul li::after{
+
+content:'';
+position:absolute;
+left:50%;
+bottom: 0;
+transform: translateX(-50%) scaleX(0);
+-webkit-transform: translateX(-50%) scaleX(0);
+-webkit-transform-origin:  50% 50%;
+transform-origin: 50% 50%;
+width: 100%;
+height: 2px;
+background-color: #fff;
+-webkit-transition: transform 250ms;
+transition:  transform 250ms;
+
+
+
+}
+
+.Nabvar ul li:hover::after{
+
+-webkit-transform: translateX(-50%)  scaleX(1);
+transform: translateX(-50%)  scaleX(1);
+}

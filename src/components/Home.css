@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+
+padding: 0;
+margin: 0;
+
+}
+.main{
+width: 100%;
+height: 1000px;
+background: #2c3e50;
+position: relative;
+-webkit-clip-path: polygon(0 0, 100% 0%, 100% 61%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 61%, 0% 100%);
+
+}
+
+.main  .bxone{
+
+margin-left: 60px;
+
+
+}
+
+.main   .bxone h1{
+
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 150px;
+
+}
+.main   .bxone  .text{
+
+display: flex;
+
+
+}
+.main   .bxone  .text h1{
+
+  margin-top: 0px;
+    
+
+}
+
+.main   .bxone  .text .txcolor{
+
+    color:#7b9c6c;
+    margin-right: 20px;
+
+
+}
+.main   .bxone   .txsecond{
+
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0;
+
+
+}
+.main   .bxone .btn{
+
+display: flex;
+margin-top: 20px;
+
+}
+.main   .bxone .btn button{
+padding: 15px;
+margin-right: 20px;
+font-weight: 600;
+
+border: none;
+width: 200px;
+
+}
+.active{
+
+    background: #7b9c6c;
+    color: #fff;
+
+}
+
+.main   .bxone .btn button:hover{
+
+    background: #7b9c6c;
+    color: #fff;
+
+}
+
+.mobile{
+width: 500px;
+position: absolute;
+margin-top: -800px;
+margin-left: 800px;
+
+}
+.appnm{
+width: 850px;
+transform: rotate(164deg);
+height: 200px;
+margin-left:100px;
+position: absolute;
+margin-top: -150px;
+display: inline-flex;
+
+
+}
+
+
+.appnm  .circle{
+
+    width: 150px;
+    height: 150px;
+    background: #7b9c6c;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 80px;
+    display: block;
+}
+
+.appnm  .circle h3{
+
+transform: rotate(195deg);
+margin-top: -80px;
+color: #fff;
+position: absolute;
+margin-left: 30px;
+font-size: 20px;
+
+}
+
+.appnm  .circle p{
+
+
+    transform: rotate(195deg);
+margin-top: -100px;
+color: #fff;
+position: absolute;
+margin-left: 65px;
+font-weight: 800;
+font-family: 'Lobster', cursive;
+
+}
+
+
+.appnm  .circle  .iconone{
+
+width: 45px;
+height: 45px;
+transform: rotate(195deg);
+margin-top: 90px;
+margin-left: 40px;
+color: #fff;
+}
+
+
+.appnm  .circle  .icontwo{
+
+    width: 45px;
+    height: 45px;
+    transform: rotate(195deg);
+    margin-top: 90px;
+    margin-left: 40px;
+    color: #fff;
+    }
+
+
+
+    .appnm  .circle  .iconthree{
+
+        width: 45px;
+        height: 45px;
+        transform: rotate(195deg);
+        margin-top: 90px;
+        margin-left: 40px;
+        color: #fff;
+        }
+
+
+.appnm  .circle:nth-child(2)  {
+
+margin-left: 120px;
+ 
+
+}
+.appnm  .circle:nth-child(2) h3  {
+
+    margin-left: 20px;
+    font-size: 20px;
+     
+    
+    }
+
+
+
+.appnm  .circle:nth-child(3){
+
+    margin-left: 120px;
+    
+    
+    }
+
+    .appnm  .circle:nth-child(3)  h3{
+
+        margin-left: 60px;
+        
+        
+        }
