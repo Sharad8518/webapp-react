@@ -218,8 +218,33 @@ color:"#fff"
 </div>
 
 
+{/* company name  */}
 
 
+
+</div>
+
+<div className="company">
+
+  <div className='txtcolcom'>
+<h2   style={{
+
+marginRight:"10px",
+fontSize:"20px"
+
+
+}}>DEVELOP AND  </h2><br></br>
+<h2    style={{
+
+marginRight:"10px",
+fontSize:"20px",
+color:"#7b9c6c"
+
+}} >DESIGN BY</h2>
+
+
+</div>
+<h6>SoftSeekar Infotech Privite Limited</h6>
 <div>
 
 
