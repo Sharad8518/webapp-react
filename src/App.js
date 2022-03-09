@@ -16,28 +16,24 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div >
+    <div className ="AppBox">
 
 <Topmenu/>
 <Home/>
+
 <About/>
+
 <Abouttw/>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-
-<Inforpage/>
-<Feature/>
-
 
 <Download/>
+
+<Feature/>
+
 <Review/>
 
 <Blog/>
 
 <Footer/>
-
     </div>
   );
 }

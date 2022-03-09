@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './image/logo.png'
 import './Topmenu.css'
+import { FaAlignJustify} from "react-icons/fa";
 import {Navbar } from 'react-bootstrap';
 
 
@@ -14,8 +15,11 @@ function Topmenu() {
    
 <img src={logo}  className="logo" />
 
+<div className='menubox'>
 
+<FaAlignJustify id="menuicon"/>
 
+</div>
 
 
 <nav>

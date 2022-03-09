@@ -77,9 +77,24 @@ transition:  transform 250ms;
 
 
 }
-
-.Nabvar ul li:hover{
-
--webkit-transform: translateX(-50%)  scaleX(1);
-transform: translateX(-50%)  scaleX(1);
+#menuicon{
+margin-left: 200px;
 }
+
+
+@media  only screen and(max-width:912px){
+
+#menuicon{
+        display: block;
+        margin-left: 20px;
+        visibility: visible;
+        
+        }
+
+
+
+
+
+    
+}
+

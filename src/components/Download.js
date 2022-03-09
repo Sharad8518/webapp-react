@@ -55,7 +55,7 @@ color:"#7b9c6c"
 
 <img src={logo} className="logodw"/>
 
-<p>There are many variations of passages of Lorem Ipsum available, but the majorityhave suffered alteration in some form, by injected humour,available</p>
+<p  className='ptxtd'>There are many variations of passages of Lorem Ipsum available, but the majorityhave suffered alteration in some form, by injected humour,available</p>
 
 </div>
 
@@ -79,19 +79,6 @@ color:"#7b9c6c"
 
       </div>
     </Col>
-    <Col xs lg="3"> <div className='minbox'>
-
-    <FaWindows   className="logodw"/>
-
-    <div className='iconbxdw'>
-    <p>Available on the</p>
-     <h5>Windows Store</h5>
-
-
-    </div>
-
-
-</div></Col>
     <Col xs lg="2">
     <div className='minbox'>
 

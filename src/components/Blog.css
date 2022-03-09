@@ -7,14 +7,14 @@ margin: 0;
 
 width: 500px;
 height: 300px;
-margin-top: 500px;
-margin-left: 400px;
+margin-top: 300px;
+
 
 
 
 }
 .boxub  .textub{
-margin-left: 150px;
+
 display: flex;
 
 }
@@ -44,6 +44,119 @@ display: flex;
 
     margin-top: 20px;
     text-align: center;
+
+
+}
+@media only screen and (max-width:912px) {
+
+
+
+    .boxub{
+
+        width: 400px;
+        height: 300px;
+        margin: 300px 200px 50px 200px;
+    
+        
+        
+        
+        }
+        .boxub  .textub{
+            margin-left: 200px;
+            display: flex;
+            
+            }
+            .boxub  .textub h4{
+            
+                font-size: 25px;
+                margin-right: 10px;
+                margin-top: 20px;
+            
+            
+            }
+            .boxub   .logoub{
+                margin-left: 235px;
+                margin-top: 10px;
+               
+               
+               }
+               .boxub    .ptxtbg{
+                margin-left: 100px;
+
+
+               }
+
+
+
+    
+}
+@media only screen and (max-width:540px) {
+    
+
+
+
+
+    .boxub{
+
+        width: 300px;
+        height: 300px;
+        margin: 300px  100px 100px 100px;
+       
+        
+        
+    }
+    .boxub  .textub h4{
+            
+        font-size: 20px;
+        margin-right: 0px;
+        margin-top: 20px;
+    
+    
+    }
+
+
+
+}
+
+@media only screen and (max-width:414px){
+
+
+    .boxub{
+
+        width: 250px;
+        height: 300px;
+        
+        
+        
+    }
+    .boxub  .textub h4{
+            
+        font-size: 20px;
+        margin-right: 10px;
+        margin-top: 20px;
+    
+    
+    }.boxub    .ptxtbg{
+        margin-left: 150px;
+        font-size: 10px;
+
+       }
+
+
+
+}
+
+@media only screen and (max-width:412px){
+
+    .boxub{
+
+        width: 250px;
+        height: 300px;
+        
+        
+        
+    }
+
 
 
 }

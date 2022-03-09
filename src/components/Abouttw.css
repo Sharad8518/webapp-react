@@ -8,7 +8,7 @@ box-sizing: border-box;
 .rowab{
 
 display: inline-flex;
-margin-left:120px;
+margin-left:180px;
 margin-top: 350px;
 position: absolute;
 }
@@ -69,7 +69,7 @@ margin-top: 50px;
 .rowab .colac  .btnab button{
 
 
-    width: 120px;
+    width: 150px;
     padding: 10px;
     margin-right: 10px;
     border: none;
@@ -89,47 +89,49 @@ color: #fff;
 
 }
 
-
-
-
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 912px){
 
 
     .rowab{
 
         display: inline-block;
         margin-left: 100px;
-        margin-top: 100px;
+        margin-top: 350px;
         position: absolute;
         }
         
-        .rowab .colac{
 
-            width:400px;
-            height: 500px;
-            
-        
-        
-        }
-    }
-        @media only screen and (max-width: 500px){
-
-
-            .rowab{
-        
-                display: inline-block;
-                margin-left: 100px;
-                margin-top: 100px;
-                position: absolute;
-                }
-                
-                .rowab .colac{
-        
-                    width:400px;
-                    height: 500px;
-                    
-                
-                
-                }
 
 }
+
+@media only screen and (max-width: 414px){
+
+
+    .rowab{
+
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 400px;
+    
+        position: absolute;
+        }
+        
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

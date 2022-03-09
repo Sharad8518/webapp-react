@@ -47,7 +47,7 @@ fontWeight:"700"
 
 
 <input type="text" placeholder='Name'/>
-
+<br></br>
 <input type="text" placeholder='Email'/>
 <br></br>
 <textarea cols={36} rows={5} placeholder="message" style={{

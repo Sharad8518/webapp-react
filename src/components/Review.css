@@ -45,3 +45,26 @@ color:#7b9c6c;
     margin-top: 20px;
     text-align: center;
 }
+
+@media screen and(max-width:414px) {
+
+    .boxrw{
+
+        width: 400x;
+        height: 300px;
+        
+        margin: 50px auto;
+    
+    }
+    .boxrw  .testrw{
+
+        display: flex;
+        
+        margin-left:  10px;
+        
+        }
+
+
+
+    
+}

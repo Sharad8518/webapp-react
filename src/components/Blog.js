@@ -7,31 +7,43 @@ import img from './image/img1.jpg'
 function Blog() {
   return (
       <div>
+<Container className='.mt-200px'>
+  
+  
+      
+      
+<Row>
+    <Col md={{ span: 6, offset: 3 }}>
+      
+      
+      
     <div className='boxub'>
-
-<div className='textub'>
+    <Row>
+    <Col md={{ span: 6, offset: 3 }}>{<div className='textub'>
 
 <h4>OUR</h4><h4 className='txtubcolor'>BLOG</h4>
 
-</div>
+</div>}</Col>
+  </Row>
+
 
 <img src={logo}  className="logoub"/>
 
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </p>
+  
+<p className="ptxtbg">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </p>
+</div>
+      
+      
+      
+      </Col>
+  </Row> 
+      
+      
+      
+      
 
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+</Container>
+  
 <Container>
 
 <Row>
