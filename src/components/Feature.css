@@ -63,6 +63,10 @@ margin-left: 60px;
 
 
 }
+
+
+
+
 .conboxfea .iconfear{
 
     width: 50px;
@@ -134,7 +138,10 @@ margin-left: 60px;
 margin-left: 0;
 font-size: 20px;
  }
-
+ .boxfeature:nth-child(1) {
+    margin-left: 40px;
+    
+    }
 
 #iconboxfea{
 

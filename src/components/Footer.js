@@ -77,18 +77,37 @@ color:"#fff"
 
 <div className='detailboxsd'>
 <Row   className=".mt-5">
-    <Col>
-    <div className='icon1bx'>
+
+    <Col   xs={2} md={2}   >
+    <div className='icon1bx' >
 
   <FaPhoneAlt className='icon1'/>
      
 
     </div>
+</Col>
+<Col>
+<div   style={{
+marginTop:"10px",
+marginLeft:"5px"
+
+}}>
+    <p  style={{
+  color:"#fff"
+
+    }}>+012 345 678 102</p>
+<p style={{
+  color:"#fff"
+
+    }} >+012 345 678 102</p>
+</div>
 
 
 
-
-
+</Col>
+</Row>
+<Row    >
+<Col  xs={2} md={2}> 
     <div className='icon1bx'>
 
   <FaGlobe className='icon1'style={{
@@ -97,47 +116,62 @@ color:"#fff"
 
 
   }}/>
-     
-
+    
     </div>
- 
+    </Col>
 
+<Col>
+<div style={{
 
-    <div className='icon1bx'>
+marginTop:"10px",
+marginLeft:"5px"
+}}>
+<p style={{
+
+color:"#fff"
+
+}}>mailto:support@devitems.com</p>
+<p  style={{
+
+color:"#fff"
+
+}}>https://devitems.com/</p>
+</div>
+
+</Col>
+</Row>
+<Row    >
+<Col xs={2} md={2} >
+
+<div className='icon1bx'>
 
 <FaPeriscope className='icon1'/>
-   
-
+  
   </div>
+</Col>
 
-  </Col>
-    
-    <Col xs={0} md={10} >
-    
-  <div className='contectdetail'>
+<Col>
+<div  style={{
+marginTop:"10px",
+marginLeft:"5px"
+}}>
+<p style={{
 
+color:"#fff"
 
-  <div className='boxct'>
-    <p>+012 345 678 102</p>
-<p>+012 345 678 102</p>
+}}>Dev Items address goes here,</p>
+<p  style={{
+
+color:"#fff"
+
+}}>street,Crossroad123.</p>
 </div>
-
-<div className='boxct'>
-<p>mailto:support@devitems.com</p>
-<p>https://devitems.com/</p>
-</div>
-
-<div className='boxct'>
-<p>Dev Items address goes here,</p>
-<p>street,Crossroad123.</p>
-</div>
-
-
-</div>
+</Col>
 
 
 
-    </Col>
+
+  
   </Row>
    
   </div>
