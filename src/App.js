@@ -25,10 +25,11 @@ function App() {
 
 <Abouttw/>
 
-<Download/>
-
+<br></br>
+<br></br>
+<Inforpage/>
 <Feature/>
-
+<Download/>
 <Review/>
 
 <Blog/>

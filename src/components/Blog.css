@@ -6,9 +6,10 @@ margin: 0;
 .boxub{
 
 width: 500px;
-height: 300px;
-margin-top: 300px;
-
+max-height: 300px;
+margin-top: -250px;
+position: absolute;
+left: calc(50% - 250px - 20px - 1px);
 
 
 
@@ -16,6 +17,7 @@ margin-top: 300px;
 .boxub  .textub{
 
 display: flex;
+margin-left: 150px;
 
 }
 .boxub  .textub h4{
@@ -51,19 +53,13 @@ display: flex;
 
 
 
-    .boxub{
-
-        width: 400px;
-        height: 300px;
-        margin: 300px 200px 50px 200px;
     
         
         
-        
-        }
         .boxub  .textub{
-            margin-left: 200px;
+         
             display: flex;
+            margin-left: 200px;
             
             }
             .boxub  .textub h4{
@@ -96,18 +92,15 @@ display: flex;
 
 
 
-    .boxub{
+   
+    
 
-        width: 300px;
-        height: 300px;
-        margin: 300px  100px 100px 100px;
-       
-        
-        
-    }
+
+
     .boxub  .textub h4{
             
         font-size: 20px;
+        
         margin-right: 0px;
         margin-top: 20px;
     
@@ -121,14 +114,7 @@ display: flex;
 @media only screen and (max-width:414px){
 
 
-    .boxub{
-
-        width: 250px;
-        height: 300px;
-        
-        
-        
-    }
+   
     .boxub  .textub h4{
             
         font-size: 20px;
@@ -137,7 +123,7 @@ display: flex;
     
     
     }.boxub    .ptxtbg{
-        margin-left: 150px;
+      
         font-size: 10px;
 
        }
@@ -148,15 +134,7 @@ display: flex;
 
 @media only screen and (max-width:412px){
 
-    .boxub{
-
-        width: 250px;
-        height: 300px;
-        
-        
-        
-    }
-
+    
 
 
 }

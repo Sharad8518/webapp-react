@@ -7,24 +7,21 @@ import img from './image/img1.jpg'
 function Blog() {
   return (
       <div>
-<Container className='.mt-200px'>
-  
+
   
       
       
-<Row>
-    <Col md={{ span: 6, offset: 3 }}>
+
       
       
       
     <div className='boxub'>
-    <Row>
-    <Col md={{ span: 6, offset: 3 }}>{<div className='textub'>
+   
+   <div className='textub'>
 
 <h4>OUR</h4><h4 className='txtubcolor'>BLOG</h4>
 
-</div>}</Col>
-  </Row>
+</div>
 
 
 <img src={logo}  className="logoub"/>
@@ -34,17 +31,20 @@ function Blog() {
 </div>
       
       
-      
-      </Col>
-  </Row> 
+ 
       
       
       
       
 
-</Container>
+
   
-<Container>
+<Container style={{
+
+marginTop:"600px"
+
+
+}}>
 
 <Row>
 
